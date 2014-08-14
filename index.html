@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<!--[if lt IE 7 ]><html class="ie ie6" lang="en"> <![endif]-->
+<!--[if IE 7 ]><html class="ie ie7" lang="en"> <![endif]-->
+<!--[if IE 8 ]><html class="ie ie8" lang="en"> <![endif]-->
+<!--[if (gte IE 9)|!(IE)]><!--><html lang="en"> <!--<![endif]-->
+<head>
+    <!-- Basic Page Needs
+  ================================================== -->
+	<meta charset="utf-8">
+	<title>Etatch</title>
+	<meta name="description" content="Etatch">
+	<meta name="author" content="cirdecsioul">
+	
+    <!-- Mobile Specific Metas
+  ================================================== -->
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+    
+    <!-- CSS
+  ================================================== -->
+	<link rel="stylesheet" href="css/style.css">
+  	<link rel="stylesheet" href="css/zerogrid.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
+    <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+
+    <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>		
+    <script type="text/javascript" src="js/jssor.core.js"></script>
+    <script type="text/javascript" src="js/jssor.utils.js"></script>
+    <script type="text/javascript" src="js/jssor.slider.js"></script>
+    <script>
+        jQuery(document).ready(function ($) {
+            var options = {
+                $AutoPlay: true,
+
+                $PauseOnHover: true,                               //[Optional] Whether to pause when mouse over if a slideshow is auto playing, default value is false
+
+                $ArrowKeyNavigation: true,   			            //Allows arrow key to navigate or not
+                $SlideWidth: 1000,                                   //[Optional] Width of every slide in pixels, the default is width of 'slides' container
+                //$SlideHeight: 300,                                  //[Optional] Height of every slide in pixels, the default is width of 'slides' container
+                $SlideSpacing: 0, 					                //Space between each slide in pixels
+                $DisplayPieces: 2,                                  //Number of pieces to display (the slideshow would be disabled if the value is set to greater than 1), the default value is 1
+                $ParkingPosition: 190,                                //The offset position to park slide (this options applys only when slideshow disabled).
+                $AutoPlayInterval: 5000,
+                $ArrowNavigatorOptions: {                       //[Optional] Options to specify and enable arrow navigator or not
+                    $Class: $JssorArrowNavigator$,              //[Requried] Class to create arrow navigator instance
+                    $ChanceToShow: 2,                               //[Required] 0 Never, 1 Mouse Over, 2 Always
+                    $AutoCenter: 2,                                 //[Optional] Auto center arrows in parent container, 0 No, 1 Horizontal, 2 Vertical, 3 Both, default value is 0
+                    $Steps: 1                                       //[Optional] Steps to go for each navigation request, default value is 1
+                }
+            };
+
+            var jssor_slider1 = new $JssorSlider$("slider1_container", options);
+
+            //responsive code begin
+            //you can remove responsive code if you don't want the slider scales while window resizes
+            function ScaleSlider() {
+	            var parentWidth = $('#slider1_container').parent().width();
+	            if (parentWidth) {
+	                jssor_slider1.$SetScaleWidth(parentWidth);
+	            }
+	            else
+	                window.setTimeout(ScaleSlider, 30);
+	        }
+	        //Scale slider after document ready
+	        ScaleSlider();
+	        if (!navigator.userAgent.match(/(iPhone|iPod|iPad|BlackBerry|IEMobile)/)) {
+	            //Capture window resize event
+	            $(window).bind('resize', ScaleSlider);
+	        }
+        });
+    </script>
+	
+	<!--[if lt IE 8]>
+       <div style=' clear: both; text-align:center; position: relative;'>
+         <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
+           <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
+        </a>
+      </div>
+    <![endif]-->
+    <!--[if lt IE 9]>
+		<script src="js/html5.js"></script>
+		<script src="js/css3-mediaqueries.js"></script>
+	<![endif]-->
+	
+	<link href='favicon.ico' rel='icon' type='image/x-icon'/>
+	
+</head>
+<body>
+<header>
+	<div class="wrap-header zerogrid">
+		<div id="logo"><a href="index.html"><img src="./images/etatch-logo.png"/></a></div>
+		<div class="menu">
+			<ul class="navigation pull-right">
+				<li><a href="index.html">HOME</a></li>
+				<li><a href="about.html">ABOUT</a></li>
+				<li><a href="services.html">SERVICES</a></li>
+				<li><a href="wordpress/?post_type=forum">COMMUNITY</a></li>
+				<li>
+					<a href="#">APPLY</a>
+					<ul class="sub-menu">
+			            <li><a href="#">Staff</a></li>
+			            <li><a href="partner.html">Partners</a></li>
+			            <li><a href="#">Sponsored Network</a></li>
+			        </ul>
+				</li>
+				<li><a href="wordpress/?page_id=19">CONTACT</a></li>
+				<li><a href="//www.freedom.tm/login">DASHBOARD</a></li>
+				<li><a href="wordpress/wp-login.php">LOGIN</a></li>
+			</ul>
+		</div>
+	</div>
+</header>
+
+<nav></nav>
+
+<section id="content">
+	<div class="wrap-content">
+		<div class="row">
+			<div id="main-content" class="col-2-3">
+				<div class="wrap-col" style="background: url(images/etatch-slider-pattern.png);">
+						<center>
+						<div id="slider1_container" style="position: relative; top: 0px; left: 0px; width: 1400px; height: 520px; overflow: hidden;background: url(images/etatch-slider-pattern.png);">
+					        <div u="slides" style="cursor: auto; position: absolute; left: 0px; top: 0px; width: 1400px; height: 520px;overflow: hidden;">
+					            <div>
+					            	<a>
+						            	<img u="image" src="images/etatch-sample-slider.jpg"/>
+										<div class="slider-text">
+											<a href="/post.html"><h3>FEATURED TITLE</h3></a>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue, massa et vehicula viverra, est magna pharetra nunc, non ullamcorper tellus mauris eu arcu. Proin hendrerit ipsum ac enim eleifend, ut sodales mauris suscipit. Fusce eget magna lacus.</p>
+						            	</div>
+						            </a>
+					            </div>
+					            <div>
+					            	<a>
+						            	<img u="image" src="images/etatch-sample-slider1.jpg" />
+						            	<div class="slider-text">
+							            	<a href="/post.html"><h3>FEATURED TITLE</h3></a>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue, massa et vehicula viverra, est magna pharetra nunc, non ullamcorper tellus mauris eu arcu. Proin hendrerit ipsum ac enim eleifend, ut sodales mauris suscipit. Fusce eget magna lacus.</p>
+						            	</div>
+						            </a>
+					            </div>
+					            <div>
+					            	<a>
+						            	<img u="image" src="images/etatch-sample-slider2.jpg" />
+						            	<div class="slider-text">
+							            	<a href="/post.html"><h3>FEATURED TITLE</h3></a>
+											<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue, massa et vehicula viverra, est magna pharetra nunc, non ullamcorper tellus mauris eu arcu. Proin hendrerit ipsum ac enim eleifend, ut sodales mauris suscipit. Fusce eget magna lacus.</p>
+						            	</div>
+						            </a>
+					            </div>
+					        </div>
+					        <span u="arrowleft" class="jssora13l" style="width: 40px; height: 50px; top: 123px; left: 30px;"></span>
+					        <span u="arrowright" class="jssora13r" style="width: 40px; height: 50px; top: 123px; right: 30px"></span>
+				    	</div>
+				    </center>
+				</div>
+				<div class="zerogrid">
+					<article>
+						<div>
+							<br>
+							<center>
+								<hr class="pull-left" style="width: 42%;border: 0;border-top: 5px solid #4cc9e9;">
+								<span class="discover pull-left">DISCOVER</span>
+								<hr class="pull-left" style="width: 42%;border: 0;border-top: 5px solid #4cc9e9;">
+							</center>
+							<br><br>
+							<center>
+								<p style="margin: 0px 120px;">
+									Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam congue, massa et vehicula viverra, est magna pharetra nunc, non ullamcorper tellus mauris eu arcu. Proin hendrerit ipsum ac enim eleifend, ut sodales mauris suscipit. Fusce eget magna lacus.
+								</p>
+							</center>
+							<br><br>
+							<center>
+								<div style="margin:0px 60px;">
+									<div class="pull-left div-discover">
+										<span class="numbers">800K</span><br><br>
+										<span class="sub-discover">MONTHLY VIEWS</span>
+									</div>
+									<div class="pull-left div-discover">
+										<span class="numbers">2000</span><br><br>
+										<span class="sub-discover">PARTNERS</span>
+									</div>
+									<div class="pull-left div-discover">
+										<span class="numbers">150M</span><br><br>
+										<span class="sub-discover">SUBSCRIBERS</span>
+									</div>
+								</div>
+							</center>
+						</div>
+					</article>
+					<article>
+						<div>
+							<br>
+							<center>
+								<hr class="pull-left" style="width: 37.5%;border: 0;border-top: 5px solid #4cc9e9;">
+								<span class="discover pull-left">WORLD OF ETATCH</span>
+								<hr class="pull-left" style="width: 37.5%;border: 0;border-top: 5px solid #4cc9e9;">
+							</center>
+							<br><br>
+							<center>
+								<div>
+									<table class="world-table">
+										<tr>
+											<td>
+												<a href="/post.html"><img src="images/esports-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">ESPORTS</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+											<td>
+												<a href="/post.html"><img src="images/gta-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">LET'S PLAY</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+											<td>
+												<a href="/post.html"><img src="images/battlefield-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">FPS</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+											<td>
+												<a href="/post.html"><img src="images/skyrim-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">MMORPG</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>
+												<a href="/post.html"><img src="images/esports-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">ESPORTS</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+											<td>
+												<a href="/post.html"><img src="images/gta-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">LET'S PLAY</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+											<td>
+												<a href="/post.html"><img src="images/battlefield-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">FPS</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+											<td>
+												<a href="/post.html"><img src="images/skyrim-sample.jpg" /></a><br>
+												<span class="world-category"><a href="/world.html">MMORPG</a></span>
+												<div class="world-div">
+													<span class="world-title">Featured Title</span><br>
+													<span class="world-desc">Lorem ipsum sit amet, consectetur adipisicing elit</span>
+												</div>
+											</td>
+										</tr>
+									</table>
+								</div>
+							</center>
+						</div>
+					</article>
+				</div>
+			</div>
+		</div>
+	</div>
+</section>
+<footer>
+	<div class="copyright">
+		<p><i class="fa fa-twitter"></i> about 5 days ago RT @SplitGaming437 just got partnered with @etatch hopefully my channel will grow.</p>
+	</div>
+	<div class="e-footer wrap-content zerogrid">
+		<div id="logo" class="pull-left"><a href=""><img src="./images/etatch-logo.png"/></a></div>
+		<p class="pull-right">
+			<a href="//www.twitter.com" title="Twitter"><i class="fa fa-twitter fa-2x"></i></a>
+			<a href="//www.facebook.com" title="Facebook"><i class="fa fa-facebook fa-2x"></i></a>
+			<a href="//plus.google.com" title="Google+"><i class="fa fa-google-plus fa-2x"></i></a>
+		</p>
+	</div>
+</footer>
+</body>
+</html>
