@@ -190,7 +190,7 @@ footer {background-color:#333;}
 .world-table .world-category:hover a{background: #fff; color:#4cc9ff;}
 
 .about{background: #fff;}
-.about .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 20px 0px;}
+.about .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 
 .contact{background: #fff; min-height: 850px;}
 .contact .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
