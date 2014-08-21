@@ -271,6 +271,7 @@ display: none;}
 	display: none;}
 
 .tweet_list .tweet_time a{
+font-family: 'Oswald';
 font-weight: normal;
 font-size:12px;
 margin-left: 10px;
