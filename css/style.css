@@ -94,7 +94,7 @@ ul.navigation ul.sub-menu li:hover a{border-radius: 0px !important;color:#fff; b
 #main-content{}
 #main-content article{ clear: both; padding:20px;}
 #main-content article h2{font-size:22px; line-height:25px;}
-#main-content article .info{font-style:italic; background:#ffffff; color:#ffffff; padding:3px 5px;}
+#main-content article .info{font-style:italic; background:#5EB7CB; color:#ffffff; padding:3px 5px;}
 #main-content article .info a{color: #ffffff; text-decoration:underline;}
 #main-content article img{margin-right:0px; border:none;}
 #main-content article p{margin-bottom:10px;}
