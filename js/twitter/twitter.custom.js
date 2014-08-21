@@ -7,7 +7,7 @@ $(function($){
 "use strict"; 
   $("#twitterfeed").tweet({
     username: "etatch", /*Enter your Twitter username */
-    modpath: 'http://etatch.github.io/images/FarCrySlider.jpg', /* director of the twitter folder : ABSOLUTLY DIRECT LINK OF YOUR TWITTER FOLDER */
+    modpath: '/js/twitter/', /* director of the twitter folder : ABSOLUTLY DIRECT LINK OF YOUR TWITTER FOLDER */
     page: 1, /*How many tweets to show at a time*/
     avatar_size: null, 
     count: 5, /*Total counts of tweets. */
