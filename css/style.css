@@ -246,7 +246,7 @@ overflow-x: hidden;
 list-style-type: none;
 text-align: center;}
 #twitterfeed {margin-top: 3px;}
-#tweet_feed {background-color: #4cc9e9; padding:20px 0px;min-height: 25px;-moz-transition: .15s ease-in-out;
+#tweet_feed {background-color: #4cc9e9; padding:20px 0px;min-height: 15px;-moz-transition: .15s ease-in-out;
 -webkit-transition: .15s ease-in-out;
 -o-transition: .15s ease-in-out;
 -ms-transition: .15s ease-in-out;
