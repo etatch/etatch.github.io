@@ -23,7 +23,10 @@
     <link href='//fonts.googleapis.com/css?family=Oswald' rel='stylesheet' type='text/css'>
     <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro' rel='stylesheet' type='text/css'>
     <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
-	
+	<script src="js/twitter/jquery.tweet.min.js" type="text/javascript"></script>
+	<script src="js/twitter/jquery.tweet.js" type="text/javascript"></script>
+	<script src="js/twitter.custom.js" type="text/javascript"></script>
+		
 	<!--[if lt IE 8]>
        <div style=' clear: both; text-align:center; position: relative;'>
          <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
@@ -178,10 +181,17 @@
 		</div>
 	</div>
 </section>
+
 <footer>
-	<div class="copyright">
-		<p><i class="fa fa-twitter"></i> about 5 days ago RT @SplitGaming437 just got partnered with @etatch hopefully my channel will grow.</p>
+<div id="tweet_feed">
+	<div class="container">
+		<div class="row">
+			<div class="span12">
+				<div id="twitterfeed"></div>
+			</div>
+		</div>
 	</div>
+</div>
 	<div class="e-footer wrap-content zerogrid">
 		<div id="logo" class="pull-left"><a href=""><img src="./images/etatch_web_banner3.png"/></a></div>
 		<p class="pull-right">
