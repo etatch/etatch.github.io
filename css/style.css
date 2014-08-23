@@ -189,13 +189,13 @@ footer {background-color:#333;}
 .world-table .world-category a{font-family: 'Oswald'; font-size: 12px; position: absolute; background: #4cc9ff; color:#fff; padding: 3px 15px 3px 20px;margin-top: 0px;margin-top: -150px;-webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;}
 .world-table .world-category:hover a{background: #fff; color:#4cc9ff;}
 
-.about{background: #fff;}
+.about{background: #eeeeee;}
 .about .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .about .branding{color: #474747; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 
 .about #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
 
-.contact{background: #fff; min-height: 850px;}
+.contact{background: #eeeeee; min-height: 850px;}
 .contact .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .contact .con-q{font-family: 'Oswald'; font-size: 28px; color: #4cc9e9}
 .contact table input, .contact table textarea{font-family: 'Oswald'; border-radius: 0px; background: #f8f8f8; color: #96a0a2;text-align: left; width: 50%;}
@@ -203,19 +203,19 @@ footer {background-color:#333;}
 .contact table textarea{position: absolute; left: 52%;top: 55px; height: 200px;}
 .contact #submit{font-family: 'Oswald'; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
 
-.partner{background: #fff; min-height: 850px;}
+.partner{background: #eeeeee; min-height: 850px;}
 .partner .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 85px;border-radius: 95px;}
 .partner .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .partner #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
 
 .partner #submit:hover, .contact #submit:hover{cursor: pointer;}
 
-.services{background: #fff;}
+.services{background: #eeeeee;}
 .services .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 70px;border-radius: 95px;}
 .services .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .services .s-title{font-family: 'Oswald'; font-weight: normal; font-size: 30px; color: #4cc9e9; line-height: 50px;}
 
-.world{background: #fff;}
+.world{background: #eeeeee;}
 .world .w-title{font-family: 'Oswald';font-size: 30px;color:#fff;}
 .world .world-div{border: none;}
 .world .world-posted{font-style: italic; color: #d1d1d1;}
@@ -224,7 +224,7 @@ footer {background-color:#333;}
 .world .pagination ul li a:hover{text-decoration: underline; color: #4cc9e9;}
 .world .pagination{margin-left: 435px;padding-bottom: 30px;margin-top: 15px;}
 
-.post{background: #fff;}
+.post{background: #eeeeee;}
 .post .w-title{font-family: 'Oswald';font-size: 35px;color:#fff;}
 .post .world-posted{color: #fff;margin-top: 10px;}
 .post .post-c{text-align:left;width: 660px;}
