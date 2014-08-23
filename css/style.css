@@ -20,7 +20,7 @@ textarea, input {font: 17px/25px Arial, Helvetica, sans-serif;}
 /* -------------------------------------------- */
 /* ------------------Style--------------------- */
 html, body {width:100%; padding:0; margin:0;}
-body {background: #ffffff;color: #474747;font: 17px/25px Arial, Helvetica, sans-serif;}
+body {background: #1F1D1C;color: #474747;font: 17px/25px Arial, Helvetica, sans-serif;}
 
 a{color: #474747;text-decoration: none;}
 a:hover {color: #5EB7CB;; text-decoration: none;}
