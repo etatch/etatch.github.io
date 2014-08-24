@@ -117,13 +117,11 @@
 				</li>
 				<li><a href="wordpress/?page_id=19">CONTACT</a></li>
 				<li><a href="//www.freedom.tm/etatch/login" target="_blank">DASHBOARD</a></li>
-				<li><?php
-					if ( is_user_logged_in() ) {
-					    echo '<a href="http://54.85.54.8/etatch/wordpress/wp-login.php?action=logout&_wpnonce=a824cc343d&redirect_to=http%3A%2F%2F54.85.54.8%2Fetatch%2Fwordpress%2F%3Fpost_type%3Dforum%26loggedout%3Dtrue" title="Logout" class="hunderline">LOGOUT</a>';
-					} else {
-					    echo '<a href="wordpress/wp-login.php" title="Login" class="hunderline">LOGIN</a>';
-					}
-					?></li>;
+				<li>if ( is_user_logged_in() ) {
+    $logo_area .= '| <a href="wordpress/wp-login.php?action=logout">logout</a>';
+} else {
+    $logo_area .= '| <a href="wordpress/wp-login.php?action=login">login</a>';
+};/li>;
 				
 			</ul>
 		</div>
