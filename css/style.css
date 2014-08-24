@@ -194,6 +194,8 @@ footer {background-color:#333;}
 .about .branding{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 
 .about #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
+.about #submit:hover{color:#4cc9e9; background-color:#fff;}
+.about #submit:hover{cursor: pointer;}
 
 .contact{background: #eeeeee; min-height: 850px;}
 .contact .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
@@ -202,6 +204,8 @@ footer {background-color:#333;}
 .contact table{width: 100%;}
 .contact table textarea{position: absolute; left: 52%;top: 55px; height: 200px;}
 .contact #submit{font-family: 'Oswald'; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
+.contact #submit:hover{cursor: pointer;}
+.contact #submit:hover{color:#4cc9e9; background-color:#fff;}
 
 .partner{background: #eeeeee; min-height: 850px;}
 .partner .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 85px;border-radius: 95px;}
@@ -210,8 +214,8 @@ footer {background-color:#333;}
 .partner .vacancies{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .partner #file{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
 
-.partner #submit:hover, .contact #submit:hover{cursor: pointer;}
-.partner #file:hover, .contact #submit:hover{cursor: pointer;}
+.partner #submit:hover{cursor: pointer;}
+.partner #file:hover{cursor: pointer;}
 .partner #submit:hover{color:#4cc9e9; background-color:#fff;}
 
 .services{background: #eeeeee;}
