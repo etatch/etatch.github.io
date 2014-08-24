@@ -100,11 +100,18 @@
 								<p style="padding: 0px 300px;">
 									We are excited to offer entrepreneurs the opportunity to start their own YouTube Network! Email support@etatch.co.uk and we will send you an application. 
 								</p><br><br>
-									<form>
-										First name: <input type="text" name="firstname"><br>
-										Last name: <input type="text" name="lastname"><br>
-										Business plan: <textarea="text" name="business plan"><br>
-									</form>
+									<html>
+<body>
+
+<form action="upload_file.php" method="post"
+enctype="multipart/form-data">
+<label for="file">Filename:</label>
+<input type="file" name="file" id="file"><br>
+<input type="submit" name="submit" value="Submit">
+</form>
+
+</body>
+</html>
 								<br>
 								<form action="mailto:support@etatch.co.uk?" target="_blank">
 								<input type="hidden" name="subject" value="Network Application">
