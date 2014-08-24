@@ -274,10 +274,10 @@ display: none;}
 	display: none;}
 
 .tweet_list .tweet_time a{
-font-family: 'Source Sans Pro', sans-serif;
-font-weight: normal;
-font-size:15px;
-text-shadow: 0px -1px 0px #25a9ff;
+font-family: 'Source Sans Pro', sans-serif; 
+font-weight: normal; 
+font-size:15px; 
+text-shadow: 0px -1px 0px #25a9ff; 
 margin-left: 10px;
 color:#fff;
 }
