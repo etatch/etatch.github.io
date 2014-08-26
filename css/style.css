@@ -33,7 +33,7 @@ a.button:hover{}
 
 /* -------------------------------------------- */
 /* ------------------Header-------------------- */
-header {background:#4cc9e9; font-family: 'Oswald', sans-serif;}
+header {background:#50c8ea; font-family: 'Oswald', sans-serif;}
 header .wrap-header{height: 45px;}
 
 header #logo {position:absolute; top:10px; width: 100%;}
@@ -61,23 +61,23 @@ nav .wrap-nav{height: 37px;}
 .menu ul {list-style: none;margin: 0;padding: 0;}
 .menu  ul li {position: relative;float: left;}
 .menu  ul li a {font-size: 14px; line-height:14px;color:#fff;display: block;padding: 16px 10px;margin-bottom: 5px;z-index: 6;position: relative; text-transform:uppercase; -webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;}
-.menu  ul li:hover a {color:#4cc9e9; background-color:#fff;}
+.menu  ul li:hover a {color:#50c8ea; background-color:#fff;}
 
 .minimenu{display:none;}
 .minimenu{position: relative;margin: 0px;background:transparent; border: 1px solid #CCC;}
 .minimenu ul li {position: relative;float: left;padding: 6px 5px 0px 5px;}
 .minimenu ul li a {font-size: 14px; line-height:14px;color:#fff;display: block;padding: 6px 10px;margin-bottom: 5px;z-index: 6;position: relative; text-transform:uppercase; }
-.minimenu ul li:hover a {color:#4cc9e9; background-color:#fff;}
+.minimenu ul li:hover a {color:#50c8ea; background-color:#fff;}
 .minimenu div{overflow: hidden;position: relative;font: 18px/40px 'PT Sans Narrow';color: #ffffff;text-align:center;text-transform:uppercase;font-weight:bold;}
 .minimenu select{position: absolute;top: 0px;left: 0px;width: 100%;height: 100%; opacity: 0;filter: progid:DXImageTransform.Microsoft.Alpha(opacity=0);	cursor: pointer;}
 
 ul.navigation, ul.navigation ul.sub-menu {padding:0;margin: 0;}
 ul.navigation ul.sub-menu li {list-style-type: none;display: inline-block;margin-top: -3px;}
-ul.navigation li ul.sub-menu li a {text-decoration: none;color: #4cc9e9;background: #fff;padding: 13px;display:inline-block;margin-top: -2px;width: 130px;border-radius: 0px;}
+ul.navigation li ul.sub-menu li a {text-decoration: none;color: #50c8ea;background: #fff;padding: 13px;display:inline-block;margin-top: -2px;width: 130px;border-radius: 0px;}
 ul.navigation li {position: relative;}
 ul.navigation li ul.sub-menu {display:none;position: absolute;left: 0;box-shadow: 0px 5px 5px #888888;-moz-box-shadow: 0px 5px 5px #888888;-webkit-box-shadow: 0px 5px 5px #888888;}
 ul.navigation li:hover ul.sub-menu {display:block;}
-ul.navigation ul.sub-menu li:hover a{border-radius: 0px !important;color:#fff; background-color:#4cc9e9;} 
+ul.navigation ul.sub-menu li:hover a{border-radius: 0px !important;color:#fff; background-color:#50c8ea;} 
 
 /* -------------------------------------------- */
 /* ------------------Navigation---------------- */
@@ -128,11 +128,11 @@ ul.navigation ul.sub-menu li:hover a{border-radius: 0px !important;color:#fff; b
 /* ------------------Footer-------------------- */
 footer {background-color:#333;}
 .e-footer a, .copyright a{text-decoration:underline; color:#fff; }
-.copyright{text-align:center; background:#4cc9e9; padding:10px 0px;color:#fff;font-size: 12px; font-family: 'Source Sans Pro', sans-serif; text-shadow: 0px -1px 0px #25a9ff;}
+.copyright{text-align:center; background:#50c8ea; padding:10px 0px;color:#fff;font-size: 12px; font-family: 'Source Sans Pro', sans-serif; text-shadow: 0px -1px 0px #25a9ff;}
 .e-footer{text-align:center;padding:10px 0px !important;color:#fff;font-size: 12px; font-family: 'Source Sans Pro', sans-serif;}
 .e-footer p i{margin-right: 15px;}
 .e-footer p a{-webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;}
-.e-footer p a:hover{color:#4cc9e9;}
+.e-footer p a:hover{color:#50c8ea;}
 .e-footer #logo_f {position:absolute; top:12.5px;}
 /* -------------------------------------------- */
 /* ------------------Components-------------------- */
@@ -172,13 +172,13 @@ footer {background-color:#333;}
 .jssora13rdn {background-position: -310px -35px;}
 #slider1_container{top:-4px !important;}
 #slider1_container h3, #slider1_container p{margin-left: 19px; text-align: left; color: #fff;margin-top: -10px;}
-#slider1_container h3{ font-family: 'Oswald'; font-size: 24px; background: #4cc9e9; padding: 10px; position: absolute; bottom: 95px;-webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;}
-#slider1_container h3:hover{background: #fff; color: #4cc9e9;}
+#slider1_container h3{ font-family: 'Oswald'; font-size: 24px; background: #50c8ea; padding: 10px; position: absolute; bottom: 95px;-webkit-transition: all 0.3s ease-in;-moz-transition: all 0.3s ease-in;-o-transition: all 0.3s ease-in;}
+#slider1_container h3:hover{background: #fff; color: #50c8ea;}
 #slider1_container div p{ font-family: 'Source Sans Pro'; font-size: 24px; background: #343839; padding: 10px;width: 922px;}
 #slider1_container .slider-text{position: absolute; bottom: 0px; padding: 10px; padding-bottom: 0px;}
 
-.discover{font-family: 'Oswald'; font-weight: bold; font-size: 30px; color: #4cc9e9; padding: 0px 20px;}
-.numbers{font-family: 'Oswald'; font-weight: bold; font-size: 72px; color: #4cc9e9;}
+.discover{font-family: 'Oswald'; font-weight: bold; font-size: 30px; color: #50c8ea; padding: 0px 20px;}
+.numbers{font-family: 'Oswald'; font-weight: bold; font-size: 72px; color: #50c8ea;}
 .sub-discover{font-family: 'Oswald'; font-weight: bold; font-size: 18px; color: #343839; line-height: 35px;}
 .div-discover{width: 320px;}
 
@@ -193,35 +193,35 @@ footer {background-color:#333;}
 .about .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .about .branding{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 
-.about #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
-.about #submit:hover{color:#4cc9e9; background-color:#fff;}
+.about #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #50c8ea; border: 1px solid #50c8ea; padding: 5px 15px;}
+.about #submit:hover{color:#50c8ea; background-color:#fff;}
 .about #submit:hover{cursor: pointer;}
 
 .contact{background: #eeeeee; min-height: 850px;}
 .contact .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
-.contact .con-q{font-family: 'Oswald'; font-size: 28px; color: #4cc9e9}
+.contact .con-q{font-family: 'Oswald'; font-size: 28px; color: #50c8ea}
 .contact table input, .contact table textarea{font-family: 'Oswald'; border-radius: 0px; background: #f8f8f8; color: #96a0a2;text-align: left; width: 50%;}
 .contact table{width: 100%;}
 .contact table textarea{position: absolute; left: 52%;top: 55px; height: 200px;}
-.contact #submit{font-family: 'Oswald'; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
+.contact #submit{font-family: 'Oswald'; color: #fff; background: #50c8ea; border: 1px solid #50c8ea; padding: 5px 15px;}
 .contact #submit:hover{cursor: pointer;}
-.contact #submit:hover{color:#4cc9e9; background-color:#fff;}
+.contact #submit:hover{color:#50c8ea; background-color:#fff;}
 
 .partner{background: #eeeeee; min-height: 850px;}
-.partner .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 70px;border-radius: 85px;}
+.partner .partner-l{background: #50c8ea;  padding: 40px 40px; color:#fff; width: 70px;border-radius: 85px;}
 .partner .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
-.partner #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
+.partner #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #50c8ea; border: 1px solid #50c8ea; padding: 5px 15px;}
 .partner .vacancies{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
-.partner #file{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
+.partner #file{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #50c8ea; border: 1px solid #50c8ea; padding: 5px 15px;}
 
 .partner #submit:hover{cursor: pointer;}
 .partner #file:hover{cursor: pointer;}
-.partner #submit:hover{color:#4cc9e9; background-color:#fff;}
+.partner #submit:hover{color:#50c8ea; background-color:#fff;}
 
 .services{background: #eeeeee;}
-.services .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 70px;border-radius: 85px;}
+.services .partner-l{background: #50c8ea;  padding: 40px 40px; color:#fff; width: 70px;border-radius: 85px;}
 .services .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
-.services .s-title{font-family: 'Oswald'; font-weight: normal; font-size: 30px; color: #4cc9e9; line-height: 50px;}
+.services .s-title{font-family: 'Oswald'; font-weight: normal; font-size: 30px; color: #50c8ea; line-height: 50px;}
 
 .world{background: #eeeeee;}
 .world .w-title{font-family: 'Oswald';font-size: 30px;color:#fff;}
@@ -229,7 +229,7 @@ footer {background-color:#333;}
 .world .world-posted{font-style: italic; color: #d1d1d1;}
 .world .world-table td{padding-right: 65px; padding-top: 25px;}
 .world .pagination ul li{float:left;position: relative;padding: 6px 5px 0px 5px;}
-.world .pagination ul li a:hover{text-decoration: underline; color: #4cc9e9;}
+.world .pagination ul li a:hover{text-decoration: underline; color: #50c8ea;}
 .world .pagination{margin-left: 435px;padding-bottom: 30px;margin-top: 15px;}
 
 .post{background: #eeeeee;}
@@ -238,9 +238,9 @@ footer {background-color:#333;}
 .post .post-c{text-align:left;width: 660px;}
 .post .comment{font-family: 'Oswald';font-size: 25px; border:none!important;background: transparent!important;margin: 0px!important; padding: 0px!important;}
 .post hr{width: 800px;float: left;}
-.post #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
+.post #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #50c8ea; border: 1px solid #50c8ea; padding: 5px 15px;}
 .post #submit:hover{cursor: pointer;}
-.post #submit:hover{color:#4cc9e9; background-color:#fff;}
+.post #submit:hover{color:#50c8ea; background-color:#fff;}
 
 /*=================================================
 12 - TWITTER FEED
@@ -258,7 +258,7 @@ overflow-x: hidden;
 list-style-type: none;
 text-align: center;}
 #twitterfeed {margin-top: 0px;}
-#tweet_feed {min-height:23px; text-align:center; background-color: #4cc9e9; padding:10px 0px; color:#fff;font-size: 15px; font-family: 'Source Sans Pro', sans-serif; text-shadow: 0px -1px 0px #25a9ff; -moz-transition: .15s ease-in-out;}
+#tweet_feed {min-height:23px; text-align:center; background-color: #50c8ea; padding:10px 0px; color:#fff;font-size: 15px; font-family: 'Source Sans Pro', sans-serif; text-shadow: 0px -1px 0px #25a9ff; -moz-transition: .15s ease-in-out;}
 -webkit-transition: .15s ease-in-out;
 -o-transition: .15s ease-in-out;
 -ms-transition: .15s ease-in-out;
