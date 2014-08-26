@@ -208,7 +208,7 @@ footer {background-color:#333;}
 .contact #submit:hover{color:#4cc9e9; background-color:#fff;}
 
 .partner{background: #eeeeee; min-height: 850px;}
-.partner .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 85px;border-radius: 95px;}
+.partner .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 85px;border-radius: 85px;}
 .partner .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .partner #submit{font-family: 'Oswald'; font-size: 20px; color: #fff; background: #4cc9e9; border: 1px solid #4cc9e9; padding: 5px 15px;}
 .partner .vacancies{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
@@ -219,7 +219,7 @@ footer {background-color:#333;}
 .partner #submit:hover{color:#4cc9e9; background-color:#fff;}
 
 .services{background: #eeeeee;}
-.services .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 85px;border-radius: 95px;}
+.services .partner-l{background: #4cc9e9;  padding: 40px 40px; color:#fff; width: 85px;border-radius: 85px;}
 .services .who{color: #fff; font-family: 'Oswald'; font-size: 30px; padding: 40px 0px 40px 0px;}
 .services .s-title{font-family: 'Oswald'; font-weight: normal; font-size: 30px; color: #4cc9e9; line-height: 50px;}
 
