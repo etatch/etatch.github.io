@@ -178,7 +178,7 @@ footer {background-color:#333;}
 #slider1_container .slider-text{position: absolute; bottom: 0px; padding: 10px; padding-bottom: 0px;}
 
 .discover{font-family: 'Oswald'; font-weight: bold; font-size: 30px; color: #50c8ea; padding: 0px 20px;}
-.numbers{font-family: 'Oswald'; font-weight: bold; font-size: 72px; color: #50c8ea;}
+.numbers{font-family: 'Oswald'; font-weight: bold; font-size: 72em; color: #50c8ea;}
 .sub-discover{font-family: 'Oswald'; font-weight: bold; font-size: 18px; color: #343839; line-height: 35px;}
 .div-discover{width: 320px;}
 
